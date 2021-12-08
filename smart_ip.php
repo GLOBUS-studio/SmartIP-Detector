@@ -2,7 +2,7 @@
 
 class Smart_IP {
 
-    public $null = '-';
+    public $null = '-'; //null safety
     public $user_ip = '';
     public $cf = false;
     public $valid = false;
