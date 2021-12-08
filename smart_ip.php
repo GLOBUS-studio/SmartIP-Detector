@@ -41,7 +41,7 @@ class Smart_IP {
  */    
     public function validate() {
         if (!filter_var($this->user_ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) && !filter_var($this->user_ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
-            $this->user_ip = $null;
+            $this->user_ip = $this->null;
             $this->valid = false;
             return $this->valid;
         } else {
