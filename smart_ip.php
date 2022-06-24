@@ -53,4 +53,4 @@ class Smart_IP {
 }
 
 $test = new Smart_IP();
-$test->ip(); //Get real IP
+$test->ip();
