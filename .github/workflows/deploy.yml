@@ -14,4 +14,4 @@ jobs:
       - run: mkdir "$HOME/.ssh"
       - run: echo "${{ secrets.ID_RSA }}" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
-      - run: cd app && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete --exclude '.vscode'. m76494@m76494.hostde30.fornex.host:/home/m76494/public_html/test.globus-learn.ru/
+      - run: cd app && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . m76494@m76494.hostde30.fornex.host:/home/m76494/public_html/test.globus-learn.ru/
