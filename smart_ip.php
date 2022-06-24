@@ -34,6 +34,7 @@ class Smart_IP {
        }
     }
 
+    
 /**
  * Validate IP address
  *
