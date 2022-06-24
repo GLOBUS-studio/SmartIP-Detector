@@ -33,7 +33,6 @@ class Smart_IP {
            return $this->user_ip;
        }
     }
-
     
 /**
  * Validate IP address
