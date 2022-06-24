@@ -1,5 +1,7 @@
 <?php
 
+/**/
+
 class Smart_IP {
 
     public $null = '-'; //null safety
