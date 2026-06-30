@@ -1,5 +1,8 @@
 # SmartIP-Detector
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-%3E%3D7.4-777BB4.svg)](https://www.php.net/)
+
 `SmartIP-Detector` is a robust PHP class designed to accurately determine the client's IP address, regardless of the environment. This solution is critical for applications requiring precise user location, ranging from security features like fraud detection to functionality enhancements such as content localization.
 
 ## Features
